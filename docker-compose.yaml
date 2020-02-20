@@ -1,0 +1,6 @@
+simple_node:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NAME="MIKE DEANGELO"
